@@ -1,0 +1,21 @@
+.rating_container{
+  width:32px;
+padding: 5px 10px;
+
+    border-radius: 50px;
+    display: flex;
+    height: 15%;
+    width: 15%;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating_container:hover{
+  background: rgb(255, 128, 0);
+}
+
+.rating_container.active{
+  color:white;
+  background: rgb(173, 164, 164);
+}
