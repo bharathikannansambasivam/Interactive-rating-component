@@ -44,7 +44,7 @@ function Rating() {
                   key={i}
                   onClick={() => handleClick(x)}
                   className={`bg-lightgray_button p-2 px-4 text-LightGrey rounded-full m-2 hover:bg-Orange text-center ${
-                    rating == x ? "bg-White" : "bg-lightgray_button"
+                    rating == x ? "bg-white" : "bg-lightgray_button"
                   }`}
                 >
                   {x}
